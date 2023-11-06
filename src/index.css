@@ -1,0 +1,63 @@
+/* ======== General CSS ======== */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+img {
+  vertical-align: middle;
+}
+
+ul,
+ol {
+  list-style: none;
+  margin-bottom: 0 !important;
+  padding: 0 !important;
+}
+section {
+  overflow: hidden;
+}
+
+.button {
+  background: #aa9b77;
+  padding: 0.6rem 1.5rem;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 0.9rem;
+  border-radius: 0.2rem;
+  transition: 0.3s;
+}
+
+.button:hover {
+  background: #9a8453;
+}
+
+/* React-Toastify */
+.Toastify__toast {
+  min-height: 2.5rem !important;
+  max-height: 3rem !important;
+  margin: 5px;
+  transition: transform 0.3s ease-in !important;
+  border-radius: 4px;
+}
+.Toastify__toast-body {
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1;
+}
+.Toastify__close-button {
+  display: none;
+}

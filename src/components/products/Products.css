@@ -1,0 +1,40 @@
+/* Products */
+.products {
+  padding: 3rem 0;
+}
+
+/* Title */
+.title {
+  text-transform: uppercase;
+  color: #333;
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 0;
+  line-height: 1;
+}
+
+.line {
+  height: 0.125rem;
+  width: 95%;
+  background: #ccc;
+}
+
+.no-category h2 {
+  font-size: 1.9rem;
+  font-weight: 600;
+}
+.no-category span {
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+  font-style: italic;
+  font-weight: 300;
+}
+
+@media (max-width: 575px) {
+  .no-category h2 {
+    font-size: 1.5rem;
+  }
+  .no-category span {
+    font-size: 1rem;
+  }
+}

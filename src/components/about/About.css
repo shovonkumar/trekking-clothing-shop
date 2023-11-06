@@ -1,0 +1,28 @@
+.about {
+  padding: 2.5rem 0;
+  background: #aa9b77;
+}
+.about h3 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #524a39;
+  font-weight: 600;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  line-height: 1.2;
+}
+.about p {
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 1.5rem;
+  color: #424242;
+  font-size: 1.05rem;
+  font-weight: 500;
+}
+
+@media (max-width: 767px) {
+  .about p {
+    width: 100%;
+  }
+}

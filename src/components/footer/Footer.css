@@ -1,0 +1,29 @@
+.footer {
+  padding: 2rem 0;
+  background: #424242;
+}
+.footer h5 {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1.4rem;
+  margin-bottom: 0;
+}
+.footer ul li a {
+  padding: 0 0.5rem;
+  text-transform: uppercase;
+  line-height: 1;
+  font-size: 0.85rem;
+  font-weight: 500;
+  border-right: 1px solid rgba(255, 255, 255, 0.51);
+  transition: 0.3s;
+}
+.footer a:hover {
+  color: #bf9231;
+}
+.footer span {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+.footer span a {
+  color: #bf9231;
+}

@@ -1,0 +1,50 @@
+.banner {
+  position: relative;
+  width: 100%;
+  height: 90vh;
+}
+
+.banner h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+
+.banner p {
+  font-size: 0.9rem;
+  letter-spacing: 0.16rem;
+  font-weight: 300;
+}
+
+.bx-chevron-down {
+  position: absolute;
+  left: 50%;
+  bottom: 1.5rem;
+  transform: translateX(-50%);
+  font-size: 3.5rem;
+  animation: updown 1s ease infinite;
+}
+@keyframes updown {
+  0% {
+    bottom: 1.5rem;
+  }
+  100% {
+    bottom: 0.4rem;
+  }
+}
+
+@media (max-width: 991px) {
+  .banner h1 {
+    font-size: 3rem;
+  }
+}
+@media (max-width: 767px) {
+  .banner h1 {
+    font-size: 2.4rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .banner h1 {
+    font-size: 2.15rem;
+  }
+}
